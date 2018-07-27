@@ -21,9 +21,11 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var playButton: UIButton!
     /// dark background for the video
     @IBOutlet weak var viewForVideo: UIView!
-    /// video player for the quiz video
+    /// video player for the intro
     private var player: AVPlayer?
+    /// video layer
     private var playerLayer: AVPlayerLayer?
+    
     // - MARK: Methods
     /**
      Called after the controller's view is loaded into memory.

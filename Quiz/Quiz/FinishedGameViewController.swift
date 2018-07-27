@@ -45,8 +45,8 @@ class FinishedGameViewController: UIViewController {
             self.goodAnswers.text = "\(gameResult.rightAnswers)"
             self.wrongAnswers.text = "\(gameResult.wrongAnswers)"
             self.unanswered.text = "\(gameResult.unanswered)"
-            self.bestTime.text = "\(GameManager.gameManager.getQuestionTimeDetails(bestTime: true))"
-            self.worstTime.text = "\(GameManager.gameManager.getQuestionTimeDetails(bestTime: false))"
+            self.bestTime.text = "\(GameManager.gameManager.getQuestionTimeDetails(bestTime: true))S"
+            self.worstTime.text = "\(GameManager.gameManager.getQuestionTimeDetails(bestTime: false))S"
         
             self.tableView.reloadData()
         }

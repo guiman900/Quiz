@@ -45,11 +45,15 @@ internal class WrongTextAnswerModel: UITableViewCell
             case .all:
                 self.bonusUsed.image = UIImage(named: "watch")
                 self.otherBonusUsed.image = UIImage(named: "fifty")
+                self.bonusUsed.setShadow()
+                self.otherBonusUsed.setShadow()
                 break
             case .extraTime:
                 self.bonusUsed.image = UIImage(named: "watch")
+                self.bonusUsed.setShadow()
             case .fiftyFifty:
                 self.bonusUsed.image = UIImage(named: "fifty")
+                self.bonusUsed.setShadow()
             default:
                 break
             }
@@ -67,10 +71,10 @@ internal class WrongTextAnswerModel: UITableViewCell
         self.response.text = question.getRightAnswer()
 
         if let time = question.userAnswer?.time {
-            self.time.text = "\(time) S"
+            self.time.text = "\(time)S"
         }
         else {
-            self.time.text = "?? S"
+            self.time.text = "??S"
         }
 
     }

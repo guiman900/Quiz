@@ -46,11 +46,15 @@ internal class ImageAnswerModel: UITableViewCell
             case .all:
                 self.bonusUsed.image = UIImage(named: "watch")
                 self.otherBonusUsed.image = UIImage(named: "fifty")
+                self.bonusUsed.setShadow()
+                self.otherBonusUsed.setShadow()
                 break
             case .extraTime:
                 self.bonusUsed.image = UIImage(named: "watch")
+                self.bonusUsed.setShadow()
             case .fiftyFifty:
                 self.bonusUsed.image = UIImage(named: "fifty")
+                self.bonusUsed.setShadow()
             default:
                 break
             }
@@ -68,6 +72,7 @@ internal class ImageAnswerModel: UITableViewCell
         if question.userAnswer?.getStatus() != .unanswered
         {
             self.userResponse.image = UIImage.load(fileName: question.userAnswer?.getReponseTextForId(id: question.userAnswer?.userReponseId))
+            self.userResponse.setShadow()
         }
         if question.userAnswer?.getStatus() == .unanswered ||  question.userAnswer?.getStatus() == .wrong
         {
@@ -76,13 +81,14 @@ internal class ImageAnswerModel: UITableViewCell
             
         if question.userAnswer?.getStatus() != .correct {
             self.response.image = UIImage.load(fileName: question.getRightAnswer())
+            self.response.setShadow()
         }
         
         if let time = question.userAnswer?.time {
-            self.time.text = "\(time) S"
+            self.time.text = "\(time)S"
         }
         else {
-            self.time.text = "?? S"
+            self.time.text = "??S"
         }
 
     }
