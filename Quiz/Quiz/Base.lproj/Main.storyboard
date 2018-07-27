@@ -91,10 +91,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3q-p1-ZdS">
+                                <rect key="frame" x="0.0" y="0.5" width="375" height="667"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pK2-ag-BzK" firstAttribute="centerX" secondItem="Xg5-Ku-Wk9" secondAttribute="centerX" id="5Ma-kh-qo0"/>
+                            <constraint firstItem="A3q-p1-ZdS" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="789-fK-aeC"/>
+                            <constraint firstItem="A3q-p1-ZdS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HsK-C9-u4g"/>
                             <constraint firstItem="pK2-ag-BzK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3" id="Ku4-zT-DfL"/>
                             <constraint firstItem="dH8-jr-J9z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="81" id="Pmc-sv-U9a"/>
                             <constraint firstItem="OjE-PZ-dhg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Qf6-Kr-EEy"/>
@@ -107,12 +113,15 @@
                             <constraint firstItem="pK2-ag-BzK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="o3J-6Y-sxf"/>
                             <constraint firstItem="OjE-PZ-dhg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ona-TE-XH3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xg5-Ku-Wk9" secondAttribute="bottom" constant="104" id="pue-Mt-jU3"/>
+                            <constraint firstItem="A3q-p1-ZdS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="t9M-n5-vY4"/>
+                            <constraint firstItem="A3q-p1-ZdS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="wCf-oW-d8V"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AhJ-S6-uMC"/>
                     <connections>
                         <outlet property="playButton" destination="Xg5-Ku-Wk9" id="v3e-o5-qvy"/>
                         <outlet property="scoreButton" destination="4a3-UJ-JhD" id="70E-CM-Rvt"/>
+                        <outlet property="viewForVideo" destination="A3q-p1-ZdS" id="z5v-zt-22b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

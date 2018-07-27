@@ -10,6 +10,7 @@
 		5574013B210B73E2004C2D23 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574013A210B73E2004C2D23 /* UIButton.swift */; };
 		5574013D210B75D0004C2D23 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574013C210B75D0004C2D23 /* UIImageView.swift */; };
 		5574013F210B781A004C2D23 /* UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574013E210B781A004C2D23 /* UIVIew.swift */; };
+		55740143210B7BE2004C2D23 /* glitch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 55740142210B7BE2004C2D23 /* glitch.mp4 */; };
 		5588F9E821089C89003D7EEB /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5588F9E721089C89003D7EEB /* questions.json */; };
 		5588F9EA2108A04D003D7EEB /* QuestionTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588F9E92108A04D003D7EEB /* QuestionTypeEnum.swift */; };
 		5588F9ED2108B43C003D7EEB /* TextQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588F9EC2108B43C003D7EEB /* TextQuestionViewController.swift */; };
@@ -69,6 +70,7 @@
 		5574013A210B73E2004C2D23 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		5574013C210B75D0004C2D23 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		5574013E210B781A004C2D23 /* UIVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVIew.swift; sourceTree = "<group>"; };
+		55740142210B7BE2004C2D23 /* glitch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = glitch.mp4; path = ../glitch.mp4; sourceTree = "<group>"; };
 		5588F9E721089C89003D7EEB /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		5588F9E92108A04D003D7EEB /* QuestionTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTypeEnum.swift; sourceTree = "<group>"; };
 		5588F9EC2108B43C003D7EEB /* TextQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextQuestionViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		5588F9E621089C5A003D7EEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				55740142210B7BE2004C2D23 /* glitch.mp4 */,
 				5588F9E721089C89003D7EEB /* questions.json */,
 			);
 			name = Resources;
@@ -396,6 +399,7 @@
 				558E30B121072C1E00682F28 /* LaunchScreen.storyboard in Resources */,
 				558E30AE21072C1E00682F28 /* Assets.xcassets in Resources */,
 				558E30A921072C1E00682F28 /* Main.storyboard in Resources */,
+				55740143210B7BE2004C2D23 /* glitch.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
