@@ -44,18 +44,20 @@ internal class ScoreModel: UITableViewCell
         case 0:
             podiumImage.image = UIImage(named: "first")
             itemView.backgroundColor = UIColor(colorLiteralRed: 239/255, green: 179/255, blue: 12/255, alpha: 1)
+            self.podiumImage.setShadow()
         case 1:
             podiumImage.image = UIImage(named: "second")
             itemView.backgroundColor = UIColor(colorLiteralRed: 125/255, green: 151/255, blue: 158/255, alpha: 1)
+            self.podiumImage.setShadow()
         case 2:
             podiumImage.image = UIImage(named: "third")
             itemView.backgroundColor = UIColor(colorLiteralRed: 216/255, green: 139/255, blue: 86/255, alpha: 1)
+            self.podiumImage.setShadow()
         default:
             podiumImage.isHidden = true
             itemView.backgroundColor = UIColor(colorLiteralRed: 125/255, green: 151/255, blue: 158/255, alpha: 1)
         }
         
-        self.itemView.layer.cornerRadius = 0.05 * self.bounds.size.width
-        self.itemView.clipsToBounds = true
+        self.itemView.setShadow()
     }
 }

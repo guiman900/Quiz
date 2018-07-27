@@ -9,8 +9,16 @@
 import Foundation
 import UIKit
 
+/**
+UIColor extension
+ */
 extension UIColor
 {
+    /**
+     Get specific color for an AnswerStatusEnum.
+     
+     - Parameter status: the AnswerStatusEnum.
+    */
     static func getColorByStatus(status: AnswerStatusEnum) -> UIColor
     {
         switch status {

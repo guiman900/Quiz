@@ -67,6 +67,14 @@ class TextQuestionViewController: UIViewController {
         self.secondResponse.setTitle(((self.currentQuestion?.answers?.allObjects[1] as? Answer))?.content, for: .normal)
         self.thirdResponse.setTitle(((self.currentQuestion?.answers?.allObjects[2] as? Answer))?.content, for: .normal)
         self.fourthResponse.setTitle(((self.currentQuestion?.answers?.allObjects[3] as? Answer))?.content, for: .normal)
+        
+        self.firstResponse.setShadow()
+        self.secondResponse.setShadow()
+        self.thirdResponse.setShadow()
+        self.fourthResponse.setShadow()
+        
+        self.fiftyFifty.setShadow()
+        self.extraTime.setShadow()
         self.setBonusButtons()
     }
     

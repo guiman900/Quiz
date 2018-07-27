@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5574013B210B73E2004C2D23 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574013A210B73E2004C2D23 /* UIButton.swift */; };
+		5574013D210B75D0004C2D23 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574013C210B75D0004C2D23 /* UIImageView.swift */; };
+		5574013F210B781A004C2D23 /* UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574013E210B781A004C2D23 /* UIVIew.swift */; };
 		5588F9E821089C89003D7EEB /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5588F9E721089C89003D7EEB /* questions.json */; };
 		5588F9EA2108A04D003D7EEB /* QuestionTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588F9E92108A04D003D7EEB /* QuestionTypeEnum.swift */; };
 		5588F9ED2108B43C003D7EEB /* TextQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588F9EC2108B43C003D7EEB /* TextQuestionViewController.swift */; };
@@ -63,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5574013A210B73E2004C2D23 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		5574013C210B75D0004C2D23 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		5574013E210B781A004C2D23 /* UIVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVIew.swift; sourceTree = "<group>"; };
 		5588F9E721089C89003D7EEB /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		5588F9E92108A04D003D7EEB /* QuestionTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTypeEnum.swift; sourceTree = "<group>"; };
 		5588F9EC2108B43C003D7EEB /* TextQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextQuestionViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 			children = (
 				5588FA0D210A1F2B003D7EEB /* UIImage.swift */,
 				55AD9D64210B464E003B4C1A /* UIColor.swift */,
+				5574013A210B73E2004C2D23 /* UIButton.swift */,
+				5574013C210B75D0004C2D23 /* UIImageView.swift */,
+				5574013E210B781A004C2D23 /* UIVIew.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -419,8 +428,10 @@
 				558E30D521072CC200682F28 /* GameViewController.swift in Sources */,
 				558E30FE210736DB00682F28 /* Answer+CoreDataClass.swift in Sources */,
 				558E30A621072C1E00682F28 /* MenuViewController.swift in Sources */,
+				5574013D210B75D0004C2D23 /* UIImageView.swift in Sources */,
 				558E30AC21072C1E00682F28 /* Quiz.xcdatamodeld in Sources */,
 				5588FA0B210A0EF8003D7EEB /* ImagesQuestionViewController.swift in Sources */,
+				5574013B210B73E2004C2D23 /* UIButton.swift in Sources */,
 				558E3100210736DB00682F28 /* UserAnswer+CoreDataClass.swift in Sources */,
 				5588F9F92109BC90003D7EEB /* WrongTextAnswerModel.swift in Sources */,
 				558E30FD210736DB00682F28 /* Question+CoreDataProperties.swift in Sources */,
@@ -433,6 +444,7 @@
 				55AD9D65210B464E003B4C1A /* UIColor.swift in Sources */,
 				558E30A421072C1E00682F28 /* AppDelegate.swift in Sources */,
 				558E30D92107307500682F28 /* GameManager.swift in Sources */,
+				5574013F210B781A004C2D23 /* UIVIew.swift in Sources */,
 				558E30FC210736DB00682F28 /* Question+CoreDataClass.swift in Sources */,
 				558E3104210774E600682F28 /* BonusEnum.swift in Sources */,
 				5588FA052109EEE5003D7EEB /* GameResult+CoreDataProperties.swift in Sources */,

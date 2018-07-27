@@ -82,6 +82,14 @@ class ImagesQuestionViewController: UIViewController {
         self.thirdImage.image = UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[2] as? Answer))?.content)
         self.fourthImage.image = UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[3] as? Answer))?.content)
       
+        self.firstImage.setShadow()
+        self.secondImage.setShadow()
+        self.thirdImage.setShadow()
+        self.fourthImage.setShadow()
+        
+        self.fiftyFifty.setShadow()
+        self.extraTime.setShadow()
+        
         self.setBonusButtons()
     }
     
@@ -105,7 +113,13 @@ class ImagesQuestionViewController: UIViewController {
             TimerManager.timerManager.stopTimer()
             let result = GameManager.gameManager.setResponse(status: .undefined, responseId: responseId, time: TimerManager.timerManager.getSeconds())
            
+            self.firstResponse.isEnabled = false
+            self.secondResponse.isEnabled = false
+            self.thirdResponse.isEnabled = false
+            self.fourthResponse.isEnabled = false
+
             self.createImageView(status: result, tag: tag)
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
                 GameManager.gameManager.requestNextQuestion()
             })

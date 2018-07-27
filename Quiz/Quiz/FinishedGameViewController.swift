@@ -187,12 +187,5 @@ extension FinishedGameViewController: UITableViewDataSource, UITableViewDelegate
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 10
     }
-    
-    func tableView(_ tableView: UITableView, willDisplayHeaderView view:UIView, forSection: Int) {
-        if let tableViewHeaderFooterView = view as? UITableViewHeaderFooterView {
-            tableViewHeaderFooterView.contentView.backgroundColor = UIColor.clear
-            tableViewHeaderFooterView.backgroundColor = UIColor.clear
-        }
-    }
 
 }

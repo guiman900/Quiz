@@ -28,6 +28,9 @@ class MenuViewController: UIViewController {
      */
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scoreButton.setShadow()
+        playButton.setShadow()
     }
     
     /**
