@@ -1,0 +1,445 @@
+{
+"quiz": [
+{
+    "id": "27364c72-b722-425d-b5d1-6552cd9ebc9d",
+    "type": "IMAGES",
+    "text": "WHICH OF THESE IS THE MAURITIUS FLAG?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "2022f651-e674-4343-b1aa-255caf85a826",
+        "content": "001-mauritius.png",
+        "url": "https://manzano-guillaume.eu/png/",
+        "isRight": "true"
+    },
+    {
+        "id": "90beac0e-f670-4fe0-ac7c-b66815c54174",
+        "content": "002-cyprus.png",
+        "url": "https://manzano-guillaume.eu/png/",
+        "isRight": "false"
+    },
+    {
+        "id": "ef90ca7a-2e85-46d4-b640-3f899330a92c",
+        "content": "003-austria.png",
+        "url": "https://manzano-guillaume.eu/png/",
+        "isRight": "false"
+    },
+    {
+        "id": "3089f597-3263-4208-a107-b3d42f899fd0",
+        "content": "004-oman.png",
+        "url": "https://manzano-guillaume.eu/png/",
+        "isRight": "false"
+    }
+    ]
+},
+         {
+         "id": "cf922c14-2fbf-4ba3-995b-0a0b8c8bd693",
+         "type": "IMAGES",
+         "text": "WHICH OF THESE IS THE ETHIOPIA FLAG?",
+         "image": "",
+         "answers" : [
+                      {
+                      "id": "d5362948-704c-4914-b4b4-9ae8ceb4ad84",
+                      "content": "006-tanzania.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "2a386999-2a39-495b-9662-d264e3c724ea",
+                      "content": "005-ethiopia.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "true"
+                      },
+                      {
+                      "id": "4df5b015-1b68-49fb-84bb-0240dceaa47b",
+                      "content": "007-nicaragua.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "660825fa-ae64-48d7-9452-23d3ac7cb538",
+                      "content": "008-estonia.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      }
+                      ]
+         },
+         {
+         "id": "e8416c6f-bd55-4f24-bd8b-203a6f4dac98",
+         "type": "IMAGES",
+         "text": "WHICH OF THESE IS THE SLOVENIA FLAG?",
+         "image": "",
+         "answers" : [
+                      {
+                      "id": "f983e24c-4a4b-4add-aa83-6f2b60b510fb",
+                      "content": "009-uganda.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "70d8f000-33db-42c1-b0d0-e2931952b755",
+                      "content": "011-zimbabwe.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "195f7a15-5fc0-4a68-9f59-28dff1c8cea8",
+                      "content": "010-slovenia.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "true"
+                      },
+                      {
+                      "id": "ec03b31e-9153-492b-adbb-3de3e19c7ab7",
+                      "content": "062-namibia.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      }
+                      ]
+         },
+         {
+         "id": "9cae2206-3676-4ea9-bb88-b7094e5a71ec",
+         "type": "IMAGES",
+         "text": "WHICH OF THESE IS THE WALES FLAG?",
+         "image": "",
+         "answers" : [
+                      {
+                      "id": "e0ba6070-b13d-494e-b0b2-4154b3a8d0a1",
+                      "content": "014-wales.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "true"
+                      },
+                      {
+                      "id": "6fa03a38-7b4e-4d30-820b-8f47892e830e",
+                      "content": "015-el-salvador.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "63949fc5-0f0b-43b7-afb3-4ed4cf4bcb03",
+                      "content": "016-nepal.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "2e13b12a-5708-4041-9c18-e5d621faad1d",
+                      "content": "019-ceuta.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      }
+                      ]
+         },
+         {
+         "id": "8e99c28e-11a9-4da7-a55d-71ec94cfefb0",
+         "type": "IMAGES",
+         "text": "WHICH OF THESE IS THE SYRIAN FLAG?",
+         "image": "",
+         "answers" : [
+                      {
+                      "id": "a21bed2a-f481-4f57-8077-5f87ebdadabc",
+                      "content": "020-iraq.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "aedcf1c2-bf18-4dd9-a701-59f9f4e0cfe0",
+                      "content": "019-ceuta.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "1f631299-c084-4574-bcac-bb8728689eef",
+                      "content": "024-honduras.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "false"
+                      },
+                      {
+                      "id": "5d96667a-dd07-4cd4-8f72-fb187358ae77",
+                      "content": "022-syria.png",
+                      "url": "https://manzano-guillaume.eu/png/",
+                      "isRight": "true"
+                      }
+                      ]
+         },
+{
+    "id": "2daf9c2d-63ac-45c3-851e-b097120bf70f",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF FRANCE?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "9b62ecd3-2e1b-46df-9bce-edb24cebd2a8",
+        "content": "PARIS",
+        "isRight": "true"
+    },
+    {
+        "id": "e85c375c-9fce-458d-9fd6-b9e227cbda14",
+        "content": "MILAN",
+        "isRight": "false"
+    },
+    {
+        "id": "0ed4abb9-f273-4387-8be6-a82ee0e25310",
+        "content": "MADRID",
+        "isRight": "false"
+    },
+    {
+        "id": "281e33d5-75f8-4b3d-8fc5-955abeae1e6b",
+        "content": "TOULOUSE",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "e3d01227-5e08-4419-9cf2-38fe6f72f2be",
+    "type": "TEXT",
+    "text": "WHICH MARKET CAN NOT BE FOUND IN LONDON (UK)?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "1c679082-8f7e-455c-85c8-64ca866d9627",
+        "content": "PORTABELLO MARKET",
+        "isRight": "false"
+    },
+    {
+        "id": "832fe8c5-5971-423d-a979-937e882f2be9",
+        "content": "CAMDEN MARKET",
+        "isRight": "false"
+    },
+    {
+        "id": "2757864e-d12b-4577-8143-64455f1fb0df",
+        "content": "BIG BEN MARKET",
+        "isRight": "true"
+    },
+    {
+        "id": "44c278b0-4a1d-4685-a6ba-7df257b68545",
+        "content": "COVENT GARDEN MARKET",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "1a816a93-981a-48b9-9720-6f7c52dcd3c8",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF WALES?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "b53c00bd-7724-4a76-bcab-f757cbb8cace",
+        "content": "BANGOR",
+        "isRight": "false"
+    },
+    {
+        "id": "f13a2212-ae4a-4e93-a37f-2ff2302dc81f",
+        "content": "NEWPORT",
+        "isRight": "false"
+    },
+    {
+        "id": "25a161ec-6827-447b-8e75-46fd9fc59547",
+        "content": "ST DAVID",
+        "isRight": "false"
+    },
+    {
+        "id": "70af54c5-0286-463f-bb33-1e70d6a7fbbe",
+        "content": "CARDIFF",
+        "isRight": "true"
+    }
+    ]
+},
+{
+    "id": "f5601a6f-bb0e-4f14-b16a-281b951cea86",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF MEXICO?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "867170df-b0f1-4e85-a9bb-9e92adf27a00",
+        "content": "GUADALAJARA",
+        "isRight": "false"
+    },
+    {
+        "id": "1d4352d3-9c6c-46b8-8533-55ff827ae5a9",
+        "content": "MEXICO CITY",
+        "isRight": "true"
+    },
+    {
+        "id": "bdb6ad8b-a167-45a4-b27f-9a9214f79f6a",
+        "content": "TIJUANA",
+        "isRight": "false"
+    },
+    {
+        "id": "96f37915-e087-4906-9ad3-0f950af3df3e",
+        "content": "ECATEPEC",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "85016f6d-db43-4332-88e6-2d58ab60daa8",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF CANADA?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "9eeb7173-fccf-4e98-9b51-be50e04dd561",
+        "content": "TORONTO",
+        "isRight": "false"
+    },
+    {
+        "id": "e3cb0cc6-2cfd-4b55-b167-903aa4de814f",
+        "content": "QUEBEC CITY",
+        "isRight": "false"
+    },
+    {
+        "id": "5966b22f-607f-412e-886d-159ce5dc4841",
+        "content": "OTTAWA",
+        "isRight": "true"
+    },
+    {
+        "id": "2f648ad5-80b2-44d6-9fa0-1b913acc4e36",
+        "content": "MONTREAL",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "5973972b-b87c-401a-8a2e-0a86aba281b0",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF MOROCCO?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "5342e7da-37da-4803-9dbb-64234055f628",
+        "content": "RABAT",
+        "isRight": "true"
+    },
+    {
+        "id": "5a9b3ef3-1582-4b1c-b4f7-5c89251c50f6",
+        "content": "CASABLANCA",
+        "isRight": "false"
+    },
+    {
+        "id": "8edf5482-34de-4575-bdd0-08842dc67caf",
+        "content": "MARRAKESH",
+        "isRight": "false"
+    },
+    {
+        "id": "240a0796-fa1f-4022-ab0f-8e1649f2f5d1",
+        "content": "AGADIR",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "51cd41d1-0959-434a-b2b4-0c35d5173c65",
+    "type": "TEXT",
+    "text": "WHICH OF THESE CITY HAVE THE BIGGEST POPULATION?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "450fbe37-85eb-483c-9ef1-43422508b518",
+        "content": "MOSCOW",
+        "isRight": "false"
+    },
+    {
+        "id": "201c0601-e689-44f6-94de-f1574bcc4e07",
+        "content": "ISTANBUL",
+        "isRight": "false"
+    },
+    {
+        "id": "08f2181f-8b91-4506-9618-04d1e64507e5",
+        "content": "LONDON",
+        "isRight": "false"
+    },
+    {
+        "id": "87aa02c4-d3f8-4652-9004-eb1dc88ce97f",
+        "content": "MEXICO CITY",
+        "isRight": "true"
+    }
+    ]
+},
+{
+    "id": "1e0e8e41-3ce2-4b8d-9633-c5d540a2327e",
+    "type": "TEXT",
+    "text": "WHICH OF THESE CITY HAVE THE BIGGEST POPULATION?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "fe790fd3-d3fe-4b59-8fc7-42141fe434ea",
+        "content": "TOKYO",
+        "isRight": "true"
+    },
+    {
+        "id": "8d66b4c7-5097-40f2-8fbe-f9d1617c2698",
+        "content": "JAKARTA",
+        "isRight": "false"
+    },
+    {
+        "id": "90b02198-ac93-4fa2-8a8e-08d3c987cafb",
+        "content": "SEOUL",
+        "isRight": "false"
+    },
+    {
+        "id": "5cded0ee-35bc-461a-80b9-4a948789b089",
+        "content": "PARIS",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "ccee2195-1668-4b4f-a781-5954309ccb3f",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF VENEZUELA?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "ee0dcce5-e67f-4496-be4d-64eb22d77d45",
+        "content": "GUACARA",
+        "isRight": "false"
+    },
+    {
+        "id": "a8716344-918d-4c55-8982-0b89f75b3de1",
+        "content": "CARACAS",
+        "isRight": "true"
+    },
+    {
+        "id": "88a8f4c6-5804-404a-9667-1791a8d2758e",
+        "content": "SAN CARLOS",
+        "isRight": "false"
+    },
+    {
+        "id": "0bc02fd7-4dbf-4669-8715-d5a582c675dd",
+        "content": "BARCELONA",
+        "isRight": "false"
+    }
+    ]
+},
+{
+    "id": "9285b0ef-88e7-4217-9b66-262bf6fa1e56",
+    "type": "TEXT",
+    "text": "WHAT IS THE CAPITAL OF BANGLADESH?",
+    "image": "",
+    "answers" : [
+    {
+        "id": "797ac4c1-8e92-4e16-96d2-1dca4f000442",
+        "content": "RAJSHAHI",
+        "isRight": "false"
+    },
+    {
+        "id": "05b53539-3347-47e2-8d17-762ad8fa07b6",
+        "content": "CHITTAGONG",
+        "isRight": "false"
+    },
+    {
+        "id": "89ef3908-adc4-4e31-b68c-b78b4a432fc4",
+        "content": "KHULNA",
+        "isRight": "false"
+    },
+    {
+        "id": "cffa2cb6-521e-490f-9edb-2e99c0582aa3",
+        "content": "DHAKA",
+        "isRight": "true"
+    }
+    ]
+}
+]
+
+}
