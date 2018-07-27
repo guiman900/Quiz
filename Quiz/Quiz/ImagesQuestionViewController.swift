@@ -82,12 +82,6 @@ class ImagesQuestionViewController: UIViewController {
         self.thirdImage.image = UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[2] as? Answer))?.content)
         self.fourthImage.image = UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[3] as? Answer))?.content)
       
-//        self.firstResponse.setImage(UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[0] as? Answer))?.content), for: .normal)
-//        self.secondResponse.setImage(UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[1] as? Answer))?.content), for: .normal)
-//        self.thirdResponse.setImage(UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[2] as? Answer))?.content), for: .normal)
-//        self.fourthResponse.setImage(UIImage.load(fileName: ((self.currentQuestion?.answers?.allObjects[3] as? Answer))?.content), for: .normal)
-//
-
         self.setBonusButtons()
     }
     
@@ -109,9 +103,34 @@ class ImagesQuestionViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: Any) {
         if let tag = (sender as? UIButton)?.tag, let responseId = (self.currentQuestion?.answers?.allObjects[tag] as? Answer)?.id {
             TimerManager.timerManager.stopTimer()
-            GameManager.gameManager.setResponse(status: .undefined, responseId: responseId, time: TimerManager.timerManager.getSeconds())
-            GameManager.gameManager.requestNextQuestion()
+            let result = GameManager.gameManager.setResponse(status: .undefined, responseId: responseId, time: TimerManager.timerManager.getSeconds())
+           
+            self.createImageView(status: result, tag: tag)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                GameManager.gameManager.requestNextQuestion()
+            })
         }
+    }
+    
+    private func createImageView(status: AnswerStatusEnum, tag: Int)
+    {
+        let imageName = status == . correct ? "check-mark" : "wrong"
+        let image = UIImage(named: imageName)
+        let imageView = UIImageView(image: image!)
+        switch tag {
+        case 0:
+            imageView.frame = firstImage.frame
+        case 1:
+            imageView.frame = secondImage.frame
+        case 2:
+            imageView.frame = thirdImage.frame
+        case 3:
+            imageView.frame = fourthImage.frame
+        default:
+            break
+        }
+        
+        view.addSubview(imageView)
     }
     
     /*
@@ -171,7 +190,7 @@ extension ImagesQuestionViewController: TimerProtocol {
     {
         self.timerLabel.text = "\(timeLeft)"
         if timeLeft <= 0 {
-            GameManager.gameManager.setResponse(status: .unanswered, responseId: "", time: 0)
+            _ = GameManager.gameManager.setResponse(status: .unanswered, responseId: "", time: 0)
             GameManager.gameManager.requestNextQuestion()
         }
     }

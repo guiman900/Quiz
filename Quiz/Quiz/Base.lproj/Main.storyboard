@@ -17,7 +17,7 @@
         <scene sceneID="Uiz-d4-PPD">
             <objects>
                 <navigationController navigationBarHidden="YES" id="VJQ-Qh-Y9Q" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ykW-UQ-N62">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ykW-UQ-N62">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1194,6 +1194,6 @@
         <image name="wrong" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dM1-Oc-PdM"/>
+        <segue reference="zfq-Ya-A6u"/>
     </inferredMetricsTieBreakers>
 </document>

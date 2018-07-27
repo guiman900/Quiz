@@ -88,8 +88,18 @@ class TextQuestionViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: Any) {
         if let tag = (sender as? UIButton)?.tag, let responseId = (self.currentQuestion?.answers?.allObjects[tag] as? Answer)?.id {
             TimerManager.timerManager.stopTimer()
-             GameManager.gameManager.setResponse(status: .undefined, responseId: responseId, time: TimerManager.timerManager.getSeconds())
-            GameManager.gameManager.requestNextQuestion()
+            
+            let result = GameManager.gameManager.setResponse(status: .undefined, responseId: responseId, time: TimerManager.timerManager.getSeconds())
+            (sender as? UIButton)?.backgroundColor = UIColor.getColorByStatus(status: result)
+            
+            self.firstResponse.isEnabled = false
+            self.secondResponse.isEnabled = false
+            self.thirdResponse.isEnabled = false
+            self.fourthResponse.isEnabled = false
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                GameManager.gameManager.requestNextQuestion()
+            })
         }
     }
     
@@ -146,7 +156,7 @@ extension TextQuestionViewController: TimerProtocol {
     {
         self.timerLabel.text = "\(timeLeft)"
         if timeLeft <= 0 {
-            GameManager.gameManager.setResponse(status: .unanswered, responseId: "", time: 0)
+            _ = GameManager.gameManager.setResponse(status: .unanswered, responseId: "", time: 0)
             GameManager.gameManager.requestNextQuestion()
         }
     }
